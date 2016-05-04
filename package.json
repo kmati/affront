@@ -15,6 +15,7 @@
   },
   "scripts": {
     "dev": "node node_modules/webpack/bin/webpack -d --watch",
+    "build-dev": "node node_modules/webpack/bin/webpack -d",
     "build": "node node_modules/webpack/bin/webpack -p",
     "test": "node_modules/.bin/mocha"
   },
