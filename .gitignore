@@ -29,6 +29,9 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
+# Apple stuff
+.DS_Store
+
 # build and output
 build
 out
