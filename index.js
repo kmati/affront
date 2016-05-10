@@ -1,2 +1,2 @@
 import { Affront } from './lib';
-export Affront;
+export { Affront };
