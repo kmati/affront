@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "friedjuju": "^0.0.6",
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "mustache": "^2.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
