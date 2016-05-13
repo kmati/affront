@@ -79,6 +79,8 @@ Derive from the ViewComponent if you want a component to perform UI rendering an
 
 Derive from the TemplateViewComponent if you want a component to perform UI rendering with templates and that responds to Store notifications. More than likely, this is what you will want to derive from if you have an UI.
 
+The templating is done using [mustache.js](https://github.com/janl/mustache.js) so whatever you can do in mustache, you can do in Affront. For reference on mustache template substitution see the [mustache man page](http://mustache.github.io/mustache.5.html).
+
 # Examples that show how to use Affront
 
 Go to [https://github.com/kmati/affront-examples](https://github.com/kmati/affront-examples) for the examples.
