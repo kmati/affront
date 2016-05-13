@@ -1,0 +1,6 @@
+{
+  "name": "Affront",
+  "tagline": "A modern client-side framework",
+  "body": "### Welcome to Affront\r\nAffront was made to be simple to use and small in size. It offers you the typical virtual DOM, template-based component, client-routing framework stuff you're used to. Affront does not aim to be overly opinionated on how you should code the front-end.\r\n\r\n### Why Affront?\r\nAffront was created to be a minimalist framework. It allows you to implement the front-end using the features we love, entirely within JavaScript, HTML templates and styling.\r\n\r\n### Authors and Contributors\r\nKimanzi Mati (@kmati) created Affront for fun and work.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
