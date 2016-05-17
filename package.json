@@ -4,7 +4,7 @@
   "description": "Modern (2016) client-side es2015 lib",
   "main": "index.js",
   "dependencies": {
-    "friedjuju": "^0.0.6",
+    "friedjuju": "^0.0.7",
     "immutable": "^3.8.1",
     "mustache": "^2.2.1"
   },
