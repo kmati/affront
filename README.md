@@ -81,6 +81,15 @@ Derive from the TemplateViewComponent if you want a component to perform UI rend
 
 The templating is done using [mustache.js](https://github.com/janl/mustache.js) so whatever you can do in mustache, you can do in Affront. For reference on mustache template substitution see the [mustache man page](http://mustache.github.io/mustache.5.html).
 
+## Controls
+
+Separate from components there are also controls. The main difference between a component and a control is that components are bound to routes while controls are not. The idea is that 1 component can contain multiple controls.
+
+The second difference between components and controls is that components cannot contain other components; however, controls can. This means that 1 component can have multiple controls, each of which contains other sub-controls.
+
+To use the controls you must derive from the ViewComponent or the TemplateViewComponent. It is preferable to use controls with a component that derives from TemplateViewComponent.
+
+
 # Examples that show how to use Affront
 
 Go to [https://github.com/kmati/affront-examples](https://github.com/kmati/affront-examples) for the examples.
