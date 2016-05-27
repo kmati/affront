@@ -1,10 +1,10 @@
 {
   "name": "affront",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Modern (2016) client-side es2015 lib",
   "main": "index.js",
   "dependencies": {
-    "friedjuju": "^0.0.15",
+    "friedjuju": "^0.0.16",
     "immutable": "^3.8.1",
     "mustache": "^2.2.1"
   },
