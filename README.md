@@ -14,7 +14,8 @@ The parts of Affront are:
 
 1. Store
 2. Router
-3. Components
+3. Http
+4. Components
 
 
 ## Store
@@ -28,6 +29,23 @@ There is a single Store in Affront which is the so-called "single source of trut
 ## Router
 
 There is a single Router in Affront which is responsible for client-side routing. When a route changes, the Router sets URL related info into the Store.
+
+## Http
+
+This is the module that performs HTTP requests and optionally sets the results as keyed items in the Store. You can use the Http module to get data and set the results in the Store in one line.
+
+```
+Affront.Http.get('the-key', url, (err, result) => { the error OR result are returned here })
+```
+
+where: ```the-key``` is the key in the Store into which the result will be set
+
+You can later get the item from the Store using:
+
+```
+const storeItem = Affront.Store.getItem('the-key');
+const storeItemValue = storeItem.value;
+```
 
 ## Components
 
