@@ -28,7 +28,7 @@ There is a single Store in Affront which is the so-called "single source of trut
 
 ## Router
 
-There is a single Router in Affront which is responsible for client-side routing. When a route changes, the Router sets URL related info into the Store.
+There is a single client-side Router in Affront which is responsible for client-side routing. When a route changes, the Router sets URL related info into the Store.
 
 ## Http
 
