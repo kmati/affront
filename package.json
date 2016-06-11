@@ -1,6 +1,6 @@
 {
   "name": "affront",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Modern (2016) client-side es2015 lib",
   "main": "index.js",
   "dependencies": {

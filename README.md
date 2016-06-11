@@ -16,6 +16,7 @@ The parts of Affront are:
 2. Router
 3. Http
 4. Components
+5. Controls
 
 
 ## Store
