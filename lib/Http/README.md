@@ -16,6 +16,10 @@ You can get or set the ```BaseUri``` property of the Http module so that you do 
 
 You can get or set the ```MinimumKeyedRequestThreshold``` property of the Http module. If the ```MinimumKeyedRequestThreshold``` property has a positive non-zero number it specifies the minimum # of milliseconds that the Http module will withhold GET requests for a keyed request. Keyed requests specify the key for which a Store item will be set with the results of the GET request. The idea is to use the Store as a limited-time cache for requested data.
 
+## BaseRequestHeaders
+
+You can get or set the ```BaseRequestHeaders``` property of the Http module so that you do not have to enter HTTP request headers that you commonly use with every request.
+
 ## Request Methods
 
 The supported Http methods are:
